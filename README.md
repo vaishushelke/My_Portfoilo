@@ -64,7 +64,7 @@ In [js/main.js](file:///c:/Users/vaishushelke/OneDrive/Desktop/Portfolio/js/main
 
 ### 3. Add Your Photo & Resume
 - Place your photo into `assets/images/my-photo.jpg` and update the `src` attribute of the `<img class="hero-avatar-img">` in `index.html`.
-- Put your resume PDF in `assets/resume.pdf` and link it to the "Resume" button `<a href="assets/resume.pdf" download>`.
+- Keep your resume PDF at `resume.pdf` in the project root; the "Download CV" button downloads it as `Vaishnavi-Shelke-CV.pdf`.
 
 ### 4. How to View Locally
 Simply double-click [index.html](file:///c:/Users/vaishushelke/OneDrive/Desktop/Portfolio/index.html) to open it in Chrome, Edge, Brave, or any browser, or use VS Code's **Live Server** extension!
