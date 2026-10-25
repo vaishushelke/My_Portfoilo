@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#312e81" />
+      <stop offset="50%" stop-color="#1e1b4b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1" />
+      <stop offset="100%" stop-color="#06b6d4" />
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="url(#bgGrad)"/>
+  
+  <!-- Glowing circle background -->
+  <circle cx="250" cy="220" r="140" fill="url(#accentGrad)" opacity="0.25"/>
+  
+  <!-- Head & Hair Silhouette -->
+  <circle cx="250" cy="180" r="75" fill="#f8fafc"/>
+  
+  <!-- Modern Glasses / Tech Accent -->
+  <rect x="200" y="165" width="40" height="26" rx="6" fill="#0f172a" stroke="#6366f1" stroke-width="4"/>
+  <rect x="260" y="165" width="40" height="26" rx="6" fill="#0f172a" stroke="#6366f1" stroke-width="4"/>
+  <line x1="240" y1="178" x2="260" y2="178" stroke="#6366f1" stroke-width="4"/>
+  
+  <!-- Smile -->
+  <path d="M 230 215 Q 250 235 270 215" stroke="#0f172a" stroke-width="4" stroke-linecap="round" fill="none"/>
+  
+  <!-- Shoulders / Torso -->
+  <path d="M 120 400 C 120 300, 180 270, 250 270 C 320 270, 380 300, 380 400 Z" fill="#6366f1" opacity="0.9"/>
+  <polygon points="250,270 230,340 270,340" fill="#4338ca"/>
+  
+  <!-- Coding brackets decoration -->
+  <text x="50" y="120" font-family="monospace" font-size="38" fill="#38bdf8" font-weight="bold">&lt;/&gt;</text>
+  <text x="390" y="320" font-family="monospace" font-size="34" fill="#a855f7" font-weight="bold">{ ; }</text>
+</svg>
